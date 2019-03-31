@@ -1,3 +1,5 @@
+
+<<<<<<< HEAD
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry kind="src" path="src" />
@@ -5,9 +7,13 @@
 	<classpathentry exported="true" kind="con"
 		path="org.eclipse.jdt.launching.JRE_CONTAINER" />
 	<classpathentry kind="output" path="bin" />
-
+</classpath>
+=======
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
 	<classpathentry kind="con"
 		path="org.eclipse.jdt.launching.JRE_CONTAINER" />
 	<classpathentry kind="src" path="COSC310_Lab2_G16/src" />
 	<classpathentry kind="output" path="bin" />
 </classpath>
+>>>>>>> 6d459a891b22f7030c0ad279cb3d1c1837b5a64b

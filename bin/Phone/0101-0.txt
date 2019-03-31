@@ -1,0 +1,6 @@
+0101
+0
+Try unplugging it and plugging it back in. Did that solve the problem?
+2
+1) yes
+2) no

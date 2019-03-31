@@ -1,0 +1,6 @@
+001110
+0
+Try to do a soft reset on your phone. Did that fix the issue?
+2
+1) yes
+2) no

@@ -1,0 +1,6 @@
+1001001
+0
+Please use that Ethernet cable. Did that fix the issue?
+2
+1) yes
+2) no

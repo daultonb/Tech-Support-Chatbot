@@ -1,0 +1,6 @@
+00011
+0
+Have you tried using putting your SIM card into another cellular device?
+2
+1) yes
+2) no

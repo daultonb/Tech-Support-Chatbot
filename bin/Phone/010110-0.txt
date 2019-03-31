@@ -1,0 +1,6 @@
+010110
+0
+Are you able to make or receive phone calls?
+2
+1) yes
+2) no

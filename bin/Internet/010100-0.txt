@@ -1,0 +1,6 @@
+100100
+0
+Have you tried using that Ethernet cable?
+2
+1) yes
+2) no

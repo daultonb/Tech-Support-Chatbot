@@ -1,0 +1,6 @@
+10
+0
+Is your ethernet cable plugged in?
+2
+1) yes
+2) no

@@ -1,0 +1,25 @@
+Chatbot: Thank you for using our Chatbot.
+User: no
+Chatbot: Okay, in that case you are eligible to receive a new phone. Unfortunately you will need to visit one of our stores in person to do this. Is there anything else I can help you with today?
+User: yes
+Chatbot: Is your Phone still covered under warranty?
+User: no
+Chatbot: Can you turn your phone turn on?
+User: 6
+Chatbot: Can you turn your phone turn on?
+User: 6
+Chatbot: How many hours has this been a problem?
+User: cell
+Chatbot: Are you using a landline or a cell phone?
+User: phone
+Chatbot: Is your issue in regards to internet, or phone?
+User: yes
+Chatbot: Is there anything else I can help you with?
+User: yes
+Chatbot: Please plug it back in. Did that fix your problem?
+User: no
+Chatbot: Is your router plugged in?
+User: wifi
+Chatbot: Are you connected to Wifi or Ethernet?
+User: internet
+Chatbot: Is your issue in regards to internet, or phone?

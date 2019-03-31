@@ -1,0 +1,6 @@
+01011
+0
+Do you hear a dial tone when you pick up the phone and raise it to your ear?
+2
+1) yes
+2) no

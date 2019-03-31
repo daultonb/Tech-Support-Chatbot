@@ -13,7 +13,7 @@ import java.io.IOException;
  */
 public class Testing {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException, InterruptedException {
 		Run run = new Run();
 		System.out.println("Hello, I am Chatbot. I will be assisting you today.");
 		while(true) {

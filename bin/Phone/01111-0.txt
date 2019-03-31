@@ -1,0 +1,6 @@
+01111
+0
+Are all of the lights on the base station on?
+2
+1) yes
+2) no

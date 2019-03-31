@@ -1,0 +1,6 @@
+10010011
+0
+You should purchase a new Ethernet cable and see if that works. Is there anything else I can help you with?
+2
+1) yes
+2) no

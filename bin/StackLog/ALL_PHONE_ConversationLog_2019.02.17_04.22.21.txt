@@ -1,0 +1,289 @@
+Chatbot: Thank you for using our Chatbot.
+User: no
+Chatbot: Okay, in that case you are eligible to receive a new phone. Unfortunately you will need to visit one of our stores in person to do this. Is there anything else I can help you with today?
+User: yes
+Chatbot: Is your Phone still covered under warranty?
+User: no
+Chatbot: Can you turn your phone turn on?
+User: 6
+Chatbot: How many hours has this been a problem?
+User: cell
+Chatbot: Are you using a landline or a cell phone?
+User: phone]
+Chatbot: Is your issue in regards to internet, or phone?
+User: yes
+Chatbot: Please contact your service provider. Is there anything else I can help you with?
+User: no
+Chatbot: Try replacing the batteries in the device. Did that fix the problem?
+User: yes
+Chatbot: Are all of the lights on the base station on?
+User: no
+Chatbot: Please unplug and plug the Base station back in and wait a minute. Did that fix the problem?
+User: no
+Chatbot: Can you put the hand held device into the system now and wait a minute. Did that fix the problem?
+User: wireless
+Chatbot: Is the device you own using a cord or is it wireless?
+User: landline
+Chatbot: Are you using a landline or a cell phone?
+User: phone
+Chatbot: Is your issue in regards to internet, or phone?
+User: yese
+Chatbot: Is there anything else I can help you with?
+User: yes
+Chatbot: Please unplug and plug the Base station back in and wait a minute. Did that fix the problem?
+User: no
+Chatbot: Can you put the hand held device into the system now and wait a minute. Did that fix the problem?
+User: wireless
+Chatbot: Is the device you own using a cord or is it wireless?
+User: landline
+Chatbot: Are you using a landline or a cell phone?
+User: phone
+Chatbot: Is your issue in regards to internet, or phone?
+User: yes
+Chatbot: Please contact your service provider. Is there anything else I can help you with?
+User: no
+Chatbot: Are all of the lights on the base station on?
+User: no
+Chatbot: Please unplug and plug the Base station back in and wait a minute. Did that fix the problem?
+User: no
+Chatbot: Can you put the hand held device into the system now and wait a minute. Did that fix the problem?
+User: wireless
+Chatbot: Is the device you own using a cord or is it wireless?
+User: landline
+Chatbot: Are you using a landline or a cell phone?
+User: phone
+Chatbot: Is your issue in regards to internet, or phone?
+User: yese
+Chatbot: Is there anything else I can help you with?
+User: yes
+Chatbot: Please unplug and plug the Base station back in and wait a minute. Did that fix the problem?
+User: no
+Chatbot: Can you put the hand held device into the system now and wait a minute. Did that fix the problem?
+User: wireless
+Chatbot: Is the device you own using a cord or is it wireless?
+User: landline
+Chatbot: Are you using a landline or a cell phone?
+User: phone
+Chatbot: Is your issue in regards to internet, or phone?
+User: yes
+Chatbot: Please contact your service provider. Is there anything else I can help you with?
+User: no
+Chatbot: Can you restart the device. Did that fix the problem you're having?
+User: no
+Chatbot: Can you change the port that the phone is plugged into. Did that fix the problem?
+User: yes
+Chatbot: Are you able to make or receive Phone calls?
+User: yes
+Chatbot: Is the device plugged in all the way?
+User: cord
+Chatbot: Is the device you own using a cord or is it wireless?
+User: landline
+Chatbot: Are you using a landline or a cell phone?
+User: phone
+Chatbot: Is your issue in regards to internet, or phone?
+User: yes
+Chatbot: Is there anything else I can help you with?
+User: yes
+Chatbot: Can you restart the device. Did that fix the problem you're having?
+User: no
+Chatbot: Can you change the port that the phone is plugged into. Did that fix the problem?
+User: yes
+Chatbot: Are you able to make or receive Phone calls?
+User: yes
+Chatbot: Is the device plugged in all the way?
+User: ye
+Chatbot: Is the device plugged in all the way?
+User: cord
+Chatbot: Is the device you own using a cord or is it wireless?
+User: landline
+Chatbot: Are you using a landline or a cell phone?
+User: phone
+Chatbot: Is your issue in regards to internet, or phone?
+User: yes
+Chatbot: Is there anything else I can help you with?
+User: yes
+Chatbot: Can you change the port that the phone is plugged into. Did that fix the problem?
+User: yes
+Chatbot: Are you able to make or receive Phone calls?
+User: yes
+Chatbot: Is the device plugged in all the way?
+User: cord
+Chatbot: Is the device you own using a cord or is it wireless?
+User: landline
+Chatbot: Are you using a landline or a cell phone?
+User: phone
+Chatbot: Is your issue in regards to internet, or phone?
+User: yes
+Chatbot: Please contact your service provider. Is there anything else I can help you with?
+User: no
+Chatbot: Do you hear a dial tone when you pick up the phone and raise it to your ear?
+User: no
+Chatbot: Try unplugging it and plugging it back in. Did that solve the problem?
+User: no
+Chatbot: Is the device plugged in all the way?
+User: cord
+Chatbot: Is the device you own using a cord or is it wireless?
+User: landline
+Chatbot: Are you using a landline or a cell phone?
+User: phone
+Chatbot: Is your issue in regards to internet, or phone?
+User: yes
+Chatbot: Is there anything else I can help you with?
+User: yes
+Chatbot: Can you change the port that the phone is plugged into. Did that fix the problem?
+User: yes
+Chatbot: Are you able to make or receive Phone calls?
+User: yes
+Chatbot: Is the device plugged in all the way?
+User: cord
+Chatbot: Is the device you own using a cord or is it wireless?
+User: landline
+Chatbot: Are you using a landline or a cell phone?
+User: phone
+Chatbot: Is your issue in regards to internet, or phone?
+User: yes
+Chatbot: You should contact your service provider. Is there anything else I can help you with?
+User: yes
+Chatbot: Is your contract with your service provider still active?
+User: yes
+Chatbot: Okay, are you having problems making and receiving phone calls?
+User: yes
+Chatbot: Is your phone is connected to a service provider?
+User: yes
+Chatbot: Can you turn your phone turn on?
+User: 6o
+Chatbot: How many hours has this been a problem?
+User: cell
+Chatbot: Are you using a landline or a cell phone?
+User: phone
+Chatbot: Is your issue in regards to internet, or phone?
+User: yes
+Chatbot: Is there anything else I can help you with?
+User: yes
+Chatbot: Try a soft reset of your device. Did that fix your problem?
+User: no
+Chatbot: Try restarting your device. Did that fix your problem?
+User: yes
+Chatbot: Are you having problems sending and receiving text messages?
+User: no
+Chatbot: Okay, are you having problems making and receiving phone calls?
+User: yes
+Chatbot: Is your phone is connected to a service provider?
+User: yes
+Chatbot: Can you turn your phone turn on?
+User: 6
+Chatbot: How many hours has this been a problem?
+User: cell
+Chatbot: Are you using a landline or a cell phone?
+User: phone
+Chatbot: Is your issue in regards to internet, or phone?
+User: yes
+Chatbot: Please contact your service provider. Is there anything else I can help you with?
+User: no
+Chatbot: Are you having problems sending and receiving text messages?
+User: no
+Chatbot: Okay, are you having problems making and receiving phone calls?
+User: yes
+Chatbot: Is your phone is connected to a service provider?
+User: yes
+Chatbot: Can you turn your phone turn on?
+User: 60
+Chatbot: How many hours has this been a problem?
+User: cell
+Chatbot: Are you using a landline or a cell phone?
+User: phone
+Chatbot: Is your issue in regards to internet, or phone?
+User: yese
+Chatbot: You should contact your service provider. Is there anything else I can help you with?
+User: yes
+Chatbot: Is your contract with your service provider still active?
+User: yes
+Chatbot: Okay, are you having problems making and receiving phone calls?
+User: yes
+Chatbot: Is your phone is connected to a service provider?
+User: yes
+Chatbot: Can you turn your phone turn on?
+User: 69
+Chatbot: How many hours has this been a problem?
+User: cell
+Chatbot: Are you using a landline or a cell phone?
+User: phone
+Chatbot: Is your issue in regards to internet, or phone?
+User: phon
+Chatbot: Is your issue in regards to internet, or phone?
+User: yes
+Chatbot: Please contact your service provider. Is there anything else I can help you with?
+User: no
+Chatbot: Please try putting your SIM card into another device. Did that resolve the issue?
+User: no
+Chatbot: Have you tried using putting your SIM card into another cellular device?
+User: no
+Chatbot: Please restart your device and wait a minute. Is your phone connected now?
+User: no
+Chatbot: Is your phone is connected to a service provider?
+User: yes
+Chatbot: Can you turn your phone turn on?
+User: 6
+Chatbot: How many hours has this been a problem?
+User: cell
+Chatbot: Are you using a landline or a cell phone?
+User: phone
+Chatbot: Is your issue in regards to internet, or phone?
+User: yes
+Chatbot: Please contact your service provider. Is there anything else I can help you with?
+User: no
+Chatbot: Did that resolve the issue?
+User: yes
+Chatbot: Have you tried using putting your SIM card into another cellular device?
+User: no
+Chatbot: Please restart your device and wait a minute. Is your phone connected now?
+User: no
+Chatbot: Is your phone is connected to a service provider?
+User: yes
+Chatbot: Can you turn your phone turn on?
+User: 6
+Chatbot: How many hours has this been a problem?
+User: cell
+Chatbot: Are you using a landline or a cell phone?
+User: phone
+Chatbot: Is your issue in regards to internet, or phone?
+User: yes
+Chatbot: Is there anything else I can help you with?
+User: yes
+Chatbot: Please plug in the device and wait a minute. Does the display turn on after a few minutes?
+User: no
+Chatbot: Is your Phone still covered under warranty?
+User: no
+Chatbot: Can you turn your phone turn on?
+User: 6
+Chatbot: How many hours has this been a problem?
+User: cell
+Chatbot: Are you using a landline or a cell phone?
+User: phone
+Chatbot: Is your issue in regards to internet, or phone?
+User: yes
+Chatbot: Okay, in that case you are eligible to receive a new phone. Unfortunately you will need to visit one of our stores in person to do this. Is there anything else I can help you with today?
+User: yes
+Chatbot: Is your Phone still covered under warranty?
+User: no
+Chatbot: Can you turn your phone turn on?
+User: 6
+Chatbot: How many hours has this been a problem?
+User: cell
+Chatbot: Are you using a landline or a cell phone?
+User: phone
+Chatbot: Is your issue in regards to internet, or phone?
+User: yes
+Chatbot: Please contact your service provider. You may need a new battery. Is there anything else I can help you with?
+User: no
+Chatbot: Please plug in the device and wait a minute. Does the display turn on after a few minutes?
+User: no
+Chatbot: Is your Phone still covered under warranty?
+User: no
+Chatbot: Can you turn your phone turn on?
+User: 6
+Chatbot: How many hours has this been a problem?
+User: cell
+Chatbot: Are you using a landline or a cell phone?
+User: phone
+Chatbot: Is your issue in regards to internet, or phone?

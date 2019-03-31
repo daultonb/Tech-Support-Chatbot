@@ -1,0 +1,6 @@
+0
+0
+Are you using a landline or a cell phone?
+2
+1) cell
+2) landline

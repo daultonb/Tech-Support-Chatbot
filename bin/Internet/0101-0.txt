@@ -1,0 +1,6 @@
+1001
+0
+Have you tried a different outlet in your house?
+2
+1) yes
+2) no

@@ -1,0 +1,6 @@
+0
+0
+Are you connected to Wifi or Ethernet?
+2
+1) wifi
+2) ethernet

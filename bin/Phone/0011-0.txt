@@ -1,0 +1,6 @@
+0011
+0
+Please plug in the device and wait a minute. Does the display turn on after a few minutes?
+2
+1) yes
+2) no

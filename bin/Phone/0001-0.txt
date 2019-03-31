@@ -1,0 +1,6 @@
+0001
+0
+Please restart your device and wait a minute. Is your phone connected now?
+2
+1) yes
+2) no 

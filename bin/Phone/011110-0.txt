@@ -1,0 +1,6 @@
+011110
+0
+Try replacing the batteries in the device. Did that fix the problem?
+2
+1) yes
+2) no

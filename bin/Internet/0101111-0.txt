@@ -1,0 +1,6 @@
+100111
+0
+You should purchase a new ethernet cable. Is there anything else I can help you with?
+2
+1) yes
+2) no

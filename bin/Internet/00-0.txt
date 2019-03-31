@@ -1,0 +1,6 @@
+00
+0
+Is your router plugged in?
+2
+1) yes
+2) no

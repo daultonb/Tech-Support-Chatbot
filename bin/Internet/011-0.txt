@@ -1,0 +1,6 @@
+100
+0
+Please plug in your ethernet cable. Did that fix the issue?
+2
+1) yes
+2) no

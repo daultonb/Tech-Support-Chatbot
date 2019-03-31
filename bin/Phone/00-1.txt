@@ -1,0 +1,6 @@
+00
+1
+Can you turn your phone on?
+2
+1) yes
+2) no

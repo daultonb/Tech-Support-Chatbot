@@ -1,0 +1,6 @@
+000111
+0
+Try a hard reset on your computer. Did that work?
+2
+1) yes
+2) no

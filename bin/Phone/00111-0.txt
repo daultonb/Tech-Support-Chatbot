@@ -1,0 +1,6 @@
+00111
+0
+Please contact your service provider. You may need a new battery. Is there anything else I can help you with?
+2
+1) yes
+2) no

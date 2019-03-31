@@ -1,0 +1,6 @@
+0100
+0
+Are you able to make or receive Phone calls?
+2
+1) yes
+2) no

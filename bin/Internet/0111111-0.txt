@@ -1,0 +1,6 @@
+1011111
+0
+Do you have another Ethernet cable?
+2
+1) yes
+2) no

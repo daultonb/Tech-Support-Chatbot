@@ -1,0 +1,311 @@
+Chatbot: Thank you for using our Chatbot.
+User: no
+Chatbot: You should purchase a new ethernet cable. Is there anything else I can help you with?
+User: no
+Chatbot: Do you have another Ethernet cable?
+User: yes
+Chatbot: Have you tried a different outlet in your house?
+User: no
+Chatbot: Is your ethernet cable damaged?
+User: yes
+Chatbot: Is your ethernet cable plugged in?
+User: 6
+Chatbot: How old is your ethernet cable?
+User: 6
+Chatbot: How many hours has this been a problem?
+User: ethernet
+Chatbot: Are you connected to Wifi or Ethernet?
+User: internet
+Chatbot: Is your issue in regards to Internet, or phone?
+User: yes
+Chatbot: Is there anything else I can help you with?
+User: yes
+Chatbot: Please plug it back in. Did that fix your problem?
+User: no
+Chatbot: Is your router plugged in?
+User: wifi
+Chatbot: Are you connected to Wifi or Ethernet?
+User: eifi
+Chatbot: Are you connected to Wifi or Ethernet?
+User: internet
+Chatbot: Is your issue in regards to Internet, or phone?
+User: yes
+Chatbot: Is there anything else I can help you with?
+User: yes
+Chatbot: Please plug in your ethernet cable. Did that fix the issue?
+User: no
+Chatbot: Is your ethernet cable plugged in?
+User: 6
+Chatbot: How old is your ethernet cable?
+User: 6
+Chatbot: How many hours has this been a problem?
+User: ethernet
+Chatbot: Are you connected to Wifi or Ethernet?
+User: internet
+Chatbot: Is your issue in regards to Internet, or phone?
+User: yes
+Chatbot: You should purchase a new ethernet cable. Is there anything else I can help you with?
+User: no
+Chatbot: Do you have another Ethernet cable?
+User: no
+Chatbot: Please try another outlet. Did that fix the issue?
+User: no
+Chatbot: Have you tried a different outlet in your house?
+User: no
+Chatbot: Is your ethernet cable damaged?
+User: yes
+Chatbot: Is your ethernet cable plugged in?
+User: 6
+Chatbot: How old is your ethernet cable?
+User: 6
+Chatbot: How many hours has this been a problem?
+User: ethernet
+Chatbot: Are you connected to Wifi or Ethernet?
+User: internet
+Chatbot: Is your issue in regards to Internet, or phone?
+User: yes
+Chatbot: Is there anything else I can help you with?
+User: yes
+Chatbot: Please use that Ethernet cable. Did that fix the issue?
+User: no
+Chatbot: Have you tried using that Ethernet cable?
+User: yes
+Chatbot: Do you have another Ethernet cable?
+User: yes
+Chatbot: Have you tried a different outlet in your house?
+User: no
+Chatbot: Is your ethernet cable damaged?
+User: yes
+Chatbot: Is your ethernet cable plugged in?
+User: 6 yrs
+Chatbot: How old is your ethernet cable?
+User: 6 hrs
+Chatbot: How many hours has this been a problem?
+User: ethernet
+Chatbot: Are you connected to Wifi or Ethernet?
+User: internet
+Chatbot: Is your issue in regards to Internet, or phone?
+User: yes
+Chatbot: You should purchase a new Ethernet cable and see if that works. Is there anything else I can help you with?
+User: yes
+Chatbot: Have you tried using that Ethernet cable?
+User: yes
+Chatbot: Do you have another Ethernet cable?
+User: yes
+Chatbot: Have you tried a different outlet in your house?
+User: no
+Chatbot: Is your ethernet cable damaged?
+User: yes
+Chatbot: Is your ethernet cable plugged in?
+User: 6 decades
+Chatbot: How old is your ethernet cable?
+User: 6
+Chatbot: How many hours has this been a problem?
+User: ethernet
+Chatbot: Are you connected to Wifi or Ethernet?
+User: internet
+Chatbot: Is your issue in regards to Internet, or phone?
+User: yes
+Chatbot: You should purchase a new ethernet cable. Is there anything else I can help you with?
+User: yes
+Chatbot: Is your ethernet cable damaged?
+User: yes
+Chatbot: Is your ethernet cable plugged in?
+User: 6
+Chatbot: How old is your ethernet cable?
+User: 6
+Chatbot: How many hours has this been a problem?
+User: ethernet
+Chatbot: Are you connected to Wifi or Ethernet?
+User: internet
+Chatbot: Is your issue in regards to Internet, or phone?
+User: yes
+Chatbot: Is there anything else I can help you with?
+User: yes
+Chatbot: Please try moving closer to your router. Did that solve your problem?
+User: 6
+Chatbot: How many feet away are you from the router?
+User: yes
+Chatbot: Is your router plugged in?
+User: wifi
+Chatbot: Are you connected to Wifi or Ethernet?
+User: internet
+Chatbot: Is your issue in regards to Internet, or phone?
+User: yes
+Chatbot: Is there anything else I can help you with?
+User: yes
+Chatbot: Please plug it back in. Did that fix your problem?
+User: no
+Chatbot: Is your router plugged in?
+User: wifi
+Chatbot: Are you connected to Wifi or Ethernet?
+User: internet
+Chatbot: Is your issue in regards to Internet, or phone?
+User: yes
+Chatbot: You should bring your phone and your computer into a physical store. Is there anything else I can help you with?
+User: no
+Chatbot: Try a hard reset on your phone and computer. Did that work?
+User: no
+Chatbot: Try restarting your phone and computer. Did that work?
+User: both
+Chatbot: Are you having issues with your phone, computer, or both?
+User: no
+Chatbot: Please try moving closer to your router. Did that solve your problem?
+User: 6
+Chatbot: How many feet away are you from the router?
+User: yes
+Chatbot: Is your router plugged in?
+User: wifi
+Chatbot: Are you connected to Wifi or Ethernet?
+User: internet
+Chatbot: Is your issue in regards to Internet, or phone?
+User: yes
+Chatbot: Is there anything else I can help you with?
+User: yes
+Chatbot: Try a hard reset on your phone and computer. Did that work?
+User: no
+Chatbot: Try restarting your phone and computer. Did that work?
+User: both
+Chatbot: Are you having issues with your phone, computer, or both?
+User: no
+Chatbot: Please try moving closer to your router. Did that solve your problem?
+User: 6
+Chatbot: How many feet away are you from the router?
+User: yes
+Chatbot: Is your router plugged in?
+User: wifi
+Chatbot: Are you connected to Wifi or Ethernet?
+User: internet
+Chatbot: Is your issue in regards to Internet, or phone?
+User: yes
+Chatbot: Is there anything else I can help you with?
+User: yes
+Chatbot: Try restarting your phone and computer. Did that work?
+User: both
+Chatbot: Are you having issues with your phone, computer, or both?
+User: no
+Chatbot: Please try moving closer to your router. Did that solve your problem?
+User: 6
+Chatbot: How many feet away are you from the router?
+User: yes
+Chatbot: Is your router plugged in?
+User: wifi
+Chatbot: Are you connected to Wifi or Ethernet?
+User: internet
+Chatbot: Is your issue in regards to Internet, or phone?
+User: yes
+Chatbot: You should bring your computer into a physical store. Is there anything else I can help you with?
+User: no
+Chatbot: Try a hard reset on your computer. Did that work?
+User: no
+Chatbot: Try restarting your computer. Did that work?
+User: computer
+Chatbot: Are you having issues with your phone, computer, or both?
+User: no
+Chatbot: Please try moving closer to your router. Did that solve your problem?
+User: 6
+Chatbot: How many feet away are you from the router?
+User: yes
+Chatbot: Is your router plugged in?
+User: wifi
+Chatbot: Are you connected to Wifi or Ethernet?
+User: internet
+Chatbot: Is your issue in regards to Internet, or phone?
+User: yes
+Chatbot: Is there anything else I can help you with?
+User: yes
+Chatbot: Try a hard reset on your computer. Did that work?
+User: no
+Chatbot: Try restarting your computer. Did that work?
+User: computer
+Chatbot: Are you having issues with your phone, computer, or both?
+User: no
+Chatbot: Please try moving closer to your router. Did that solve your problem?
+User: 6
+Chatbot: How many feet away are you from the router?
+User: yes
+Chatbot: Is your router plugged in?
+User: wifi
+Chatbot: Are you connected to Wifi or Ethernet?
+User: internet
+Chatbot: Is your issue in regards to Internet, or phone?
+User: yes
+Chatbot: Is there anything else I can help you with?
+User: yes
+Chatbot: Try restarting your computer. Did that work?
+User: computer
+Chatbot: Are you having issues with your phone, computer, or both?
+User: no
+Chatbot: Please try moving closer to your router. Did that solve your problem?
+User: 6
+Chatbot: How many feet away are you from the router?
+User: yes
+Chatbot: Is your router plugged in?
+User: wifi
+Chatbot: Are you connected to Wifi or Ethernet?
+User: internet
+Chatbot: Is your issue in regards to Internet, or phone?
+User: yes
+Chatbot: You should bring your phone into a physical store. Is there anything else I can help you with?
+User: no
+Chatbot: Try a hard reset on your phone. Did that work?
+User: no
+Chatbot: Try restarting your phone. Did that work?
+User: phone
+Chatbot: Are you having issues with your phone, computer, or both?
+User: no
+Chatbot: Please try moving closer to your router. Did that solve your problem?
+User: 6
+Chatbot: How many feet away are you from the router?
+User: yes
+Chatbot: Is your router plugged in?
+User: wifi
+Chatbot: Are you connected to Wifi or Ethernet?
+User: internet
+Chatbot: Is your issue in regards to Internet, or phone?
+User: yes
+Chatbot: Is there anything else I can help you with?
+User: yes
+Chatbot: Try a hard reset on your phone. Did that work?
+User: no
+Chatbot: Try restarting your phone. Did that work?
+User: phone
+Chatbot: Are you having issues with your phone, computer, or both?
+User: no
+Chatbot: Please try moving closer to your router. Did that solve your problem?
+User: 6
+Chatbot: How many feet away are you from the router?
+User: yes
+Chatbot: Is your router plugged in?
+User: wifi
+Chatbot: Are you connected to Wifi or Ethernet?
+User: internet
+Chatbot: Is your issue in regards to Internet, or phone?
+User: yes
+Chatbot: Is there anything else I can help you with?
+User: yes
+Chatbot: Try restarting your phone. Did that work?
+User: phone
+Chatbot: Are you having issues with your phone, computer, or both?
+User: no
+Chatbot: Please try moving closer to your router. Did that solve your problem?
+User: 6
+Chatbot: How many feet away are you from the router?
+User: yes
+Chatbot: Is your router plugged in?
+User: wifi
+Chatbot: Are you connected to Wifi or Ethernet?
+User: internet
+Chatbot: Is your issue in regards to Internet, or phone?
+User: yes
+Chatbot: Is there anything else I can help you with?
+User: yes
+Chatbot: Please try moving closer to your router. Did that solve your problem?
+User: 6
+Chatbot: How many feet away are you from the router?
+User: yes
+Chatbot: Is your router plugged in?
+User: wifi
+Chatbot: Are you connected to Wifi or Ethernet?
+User: internet
+Chatbot: Is your issue in regards to Internet, or phone?

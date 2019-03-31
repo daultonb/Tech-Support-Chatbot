@@ -1,0 +1,6 @@
+00001
+0
+Are you having problems sending and receiving text messages?
+2
+1) yes
+2) no

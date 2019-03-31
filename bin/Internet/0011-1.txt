@@ -1,0 +1,6 @@
+0011
+1
+Please move closer to the router. Did that fix the issue?
+2
+1) yes
+2) no

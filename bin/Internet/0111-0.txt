@@ -1,0 +1,6 @@
+1011
+0
+Is your ethernet cable damaged?
+2
+1) yes
+2) no

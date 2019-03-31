@@ -1,0 +1,6 @@
+00001011
+0
+Try a hard reset of your device. Did that fix your problem?
+2
+1) yes
+2) no

@@ -1,0 +1,6 @@
+01000
+0
+Can you change the port that the phone is plugged into. Did that fix the problem?
+2
+1) yes
+2) no

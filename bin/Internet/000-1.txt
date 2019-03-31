@@ -1,0 +1,6 @@
+000
+1
+Please try moving closer to your router. Did that solve your problem?
+2
+1) yes
+2) no

@@ -1,0 +1,6 @@
+01
+0
+Is the device you own using a cord or is it wireless?
+2
+1) cord
+2) wireless

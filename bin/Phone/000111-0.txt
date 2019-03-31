@@ -1,0 +1,6 @@
+000111
+0
+Please try putting your SIM card into another device. Did that resolve the issue?
+2
+1) yes
+2) no

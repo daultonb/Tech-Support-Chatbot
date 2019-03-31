@@ -1,0 +1,6 @@
+00000
+0
+Is your contract with your service provider still active?
+2
+1) yes
+2) no

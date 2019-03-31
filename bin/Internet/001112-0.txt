@@ -1,0 +1,6 @@
+001112
+0
+Try to do a soft reset on your phone and computer. Did that fix the issue?
+2
+1) yes
+2) no

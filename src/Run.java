@@ -6,6 +6,8 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Stack;
 
+import GUI.GUI;
+
 /*
  * Class: Run
  * Description: -	Main class to run the Chatbot
@@ -37,11 +39,15 @@ public class Run {
 		StackHandler sh;
 		Stack<String> convo;
 		Stack<String> fileStack;
+		GUI gui;
+		
+		boolean input = false;
 
-		public Run() {
+		public Run(GUI gui) {
 			sh = new StackHandler();
 			convo = sh.initConversationLog();
 			fileStack = sh.initFileLog();
+			this.gui = gui;
 		}
 /*
  * Method: initialize
@@ -57,19 +63,27 @@ public class Run {
  * 				-	If input is invalid print that it is invalid				
  */
 	
-	public void initialize() {
+	public void initialize(){
 		Tree start = new Tree(0);
 		ArrayList<Question> initial = new ArrayList<>(start.getNextQuestion().values());
 		setSelection(0);
-		while(true) {
-		initial.get(0).printQuestion();
+		gui.setBotOutput(initial.get(0));
 		convo.push("Chatbot: "+initial.get(0).getQuestion());
 		setUI(new UserInput());
-		setUser(ui.getInput());
-		convo.push("User: "+getUser());
-		if(user.contains("internet")) {setSelection(1); break;}
-		else if(user.contains("phone")) {setSelection(2); break;}
-		else {System.out.println("Entry invalid, try again");}
+		int loopcounter = 0;
+		while(true) {
+			input = gui.getInputBool();
+			loopcounter++;
+			if(loopcounter%11==0)
+			System.out.println("Boolean is false");
+			if(input) {
+			ui.setInput(gui.getUserText());
+			setUser(ui.getInput2());
+			convo.push("User: "+getUser());
+			if(getUser().contains("internet")) {setSelection(1); break; }
+			else if(getUser().contains("phone")) {setSelection(2); break; }
+			else {System.out.println("Entry invalid, try again");}
+			}
 		}
 	}
 	
@@ -84,6 +98,7 @@ public class Run {
 	 */
 	
 	public void initializeTree() throws FileNotFoundException {
+		System.out.println("Made to initializetree");
 		Tree bot = new Tree(getSelection());
 		setFile("0-0.txt");
 		fileStack.push(getFile());
@@ -104,6 +119,9 @@ public class Run {
 	 */
 	
 	public void runLoop() throws IOException {
+		System.out.println("Made it to runLoop");
+		input = false;
+		int loopcounter = 0;
 		while (true) {
 			if(getFile().equals("loop-0.txt")){
 				break;
@@ -114,13 +132,20 @@ public class Run {
 				sh.pathToFile();
 				System.exit(0);
 			}
-			getQuestions().get(getFile()).printQuestion();
+			//getQuestions().get(getFile()).printQuestion();
+			gui.setBotOutput(getQuestions().get(getFile()));
 			convo.push("Chatbot: "+getQuestions().get(getFile()).getQuestion());
-			setUser(ui.getInput());
-			convo.push("User: "+getUser());
-			file = d.Decision(getUser(), getFile(), getSelection());
-			fileStack.push(getFile());
-			
+			input = gui.getInputBool();
+			loopcounter++;
+			if(loopcounter%11==0)
+			System.out.println("false");
+				if(input) {
+				System.out.println("true");
+				setUser(ui.getInput2());
+				convo.push("User: "+getUser());
+				file = d.Decision(getUser(), getFile(), getSelection());
+				fileStack.push(getFile());
+				}
 		}
 	}
 	//setters (only used locally)
