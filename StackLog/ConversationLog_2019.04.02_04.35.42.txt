@@ -1,0 +1,25 @@
+Chatbot: Thank you for using our Chatbot.
+User: no i dont
+Chatbot: You should purchase a new ethernet cable. Is there anything else I can help you with?
+User: no i dont
+Chatbot: Do you have another Ethernet cable?
+User: yes
+Chatbot: Have you tried a different outlet in your house?
+User: no
+Chatbot: Is your ethernet cable damaged?
+User: yes
+Chatbot: Is your ethernet cable plugged in?
+User: 14
+Chatbot: How old is your ethernet cable?
+User: 5
+Chatbot: How many hours has this been a problem?
+User: ethernet
+Chatbot: Are you connected to Wifi or Ethernet?
+User: internet
+Chatbot: Is your issue in regards to internet, or phone?
+User: yes
+Chatbot: Is your issue in regards to internet, or phone?
+User: yes
+Chatbot: Is your issue in regards to internet, or phone?
+Chatbot: Is your issue in regards to internet, or phone?
+Chatbot: Is your issue in regards to internet, or phone?
