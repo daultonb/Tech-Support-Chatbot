@@ -1,0 +1,19 @@
+Chatbot: Thank you for using our Chatbot.
+User: no
+Chatbot: You should bring your phone into a physical store. Is there anything else I can help you with?
+User: no
+Chatbot: Try a hard reset on your phone. Did that work?
+User: not
+Chatbot: Try restarting your phone. Did that work?
+User: phone
+Chatbot: Are you having issues with your phone, computer, or both?
+User: no
+Chatbot: Please try moving closer to your router. Did that solve your problem?
+User: no
+Chatbot: How many feet away are you from the router?
+User: yes
+Chatbot: Is your router plugged in?
+User: wifi
+Chatbot: Are you connected to Wifi or Ethernet?
+User: internet
+Chatbot: Is your issue in regards to internet, or phone?

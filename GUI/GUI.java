@@ -1,5 +1,4 @@
 package GUI;
-
 import java.awt.*;
 import javax.swing.*;
 import javax.swing.text.BadLocationException;
@@ -31,83 +30,90 @@ public class GUI implements ActionListener {
 		frame = new JFrame();
 		
 		setFrame();
-		setDialogue();
-		
-		scroll = new JScrollPane(MainDialogueArea);
+		setPanel();
 		setUserText();
 		setButton();
 		
-		frame.add(scroll);
-		frame.add(MainDialogueArea);
-		frame.add(UserTextField);
-		frame.add(button);
+		frame.add(UserTextField, BorderLayout.WEST);
+		frame.add(button, BorderLayout.EAST);
+		frame.add(scroll, BorderLayout.NORTH);
 		
 		frame.setVisible(true);
-		
 		ui = new UserInput();
+		setUserText("");
 		
 	}
 	public void actionPerformed(ActionEvent e) {
 		String user = UserTextField.getText();
-		setUserText(user);
-		ui.setInput(user);
-		inputbool = true;
-		MainDialogueArea.append("\nUser: "+user);
-		UserTextField.setText(""); //clears text field
+		if(user.length()>0) {
+			setUserText(user);
+			ui.setInput(user);
+			MainDialogueArea.append("\nUser: "+user);
+			UserTextField.setText(""); //clears text field
+		}
+		else {
+			setBotOutput("I didn't get that, try again.");
+		}
 	}
+	
 	public void setUserText(String user) {
 		userString = user;
 	}
 	public String getUserText() {
 		return userString;
 	}
-
-	public static void main(String[] args) throws IOException, InterruptedException {
-		GUI gui = new GUI();
-		Run run = new Run(gui);
-		gui.MainDialogueArea.append("ChatBot: Hello, I am Chatbot. I will be assisting you today.");
-		run.initialize();
-		run.initializeTree();
-		setInputBool(false);
-		run.runLoop();
-		
-	}
-	public static void setInputBool(boolean b) {
-		inputbool = b;
-		
-	}
 	public void setBotOutput(Question q) {
 		String bot = q.getQuestion();
-		MainDialogueArea.append("\nChatBot: "+bot);
+		MainDialogueArea.append("\nTech-Bot: "+bot);
+	}
+	public void setBotOutput(String output) {
+		MainDialogueArea.append("\nTech-Bot: "+output);
+	}
+	
+	public void stopBotOutput() {
+		MainDialogueArea.append("");
 	}
 	
 	public boolean getInputBool() {
-		return inputbool;
+		return (getUserText() != null);
 	}
-
 	private void setFrame() {
 		frame.setTitle("Chatbot.exe");
 		
 		frame.setSize(600,600);
-		frame.setLayout(null);
+		frame.setLayout(new BorderLayout());
 		
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		frame.setResizable(false);
 	}
-	private void setDialogue() {
+	private void setPanel() {
 		MainDialogueArea = new JTextArea();
-		MainDialogueArea.setBounds(5,5,550,475);
 		MainDialogueArea.setEditable(false);
+		scroll = new JScrollPane(MainDialogueArea);
+		scroll.setPreferredSize(new Dimension(550,500));
 	}
 	private void setUserText() {
 		UserTextField = new JTextField();
-		UserTextField.setBounds(5,490,475,60);	
+		UserTextField.setPreferredSize(new Dimension(475,60));	
 		UserTextField.addActionListener(this);
 	}
 	private void setButton() {
 		button = new JButton("Send");
-		button.setBounds(480,500,100,40);
+		button.setPreferredSize(new Dimension(100,40));
 		button.addActionListener(this);
 	}
 	
+	public static void main(String[] args) throws IOException, InterruptedException {
+		GUI gui = new GUI();
+		Run run = new Run(gui);
+		gui.MainDialogueArea.append("Tech-Bot: Hello, I am Tech-bot. I will be assisting you today.");
+		run.initialize();
+		run.runLoop();
+		
+	}
+	public void exit() throws InterruptedException {
+		MainDialogueArea.append("\nSystem Exiting");
+		Thread.sleep(3000);
+		System.exit(0);
+	}
 }

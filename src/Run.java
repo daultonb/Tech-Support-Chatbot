@@ -63,26 +63,29 @@ public class Run {
  * 				-	If input is invalid print that it is invalid				
  */
 	
-	public void initialize(){
+	public void initialize() throws IOException, InterruptedException{
 		Tree start = new Tree(0);
 		ArrayList<Question> initial = new ArrayList<>(start.getNextQuestion().values());
 		setSelection(0);
-		gui.setBotOutput(initial.get(0));
-		convo.push("Chatbot: "+initial.get(0).getQuestion());
 		setUI(new UserInput());
-		int loopcounter = 0;
+		int counter = 0;
+		
 		while(true) {
-			input = gui.getInputBool();
-			loopcounter++;
-			if(loopcounter%11==0)
-			System.out.println("Boolean is false");
-			if(input) {
+			if(counter>0) {
+				gui.setBotOutput("Did not understand that, please try again.");
+			}
+			gui.setBotOutput(initial.get(0));
+			counter++;
+			convo.push("Chatbot: "+initial.get(0).getQuestion());
+			Thread.sleep(4500); //give user 4.5 secs to respond
+			input = gui.getInputBool(); //boolean storing whether user has inputted
+			if(input) { //makes sure user input is not null
 			ui.setInput(gui.getUserText());
-			setUser(ui.getInput2());
+			setUser(ui.getInput2(gui));
 			convo.push("User: "+getUser());
-			if(getUser().contains("internet")) {setSelection(1); break; }
-			else if(getUser().contains("phone")) {setSelection(2); break; }
-			else {System.out.println("Entry invalid, try again");}
+			if(getUser().contains("internet")) {setSelection(1); initializeTree();break; }
+			else if(getUser().contains("phone")) {setSelection(2); initializeTree(); break; }
+			else {gui.setBotOutput("Did not understand that, please try again."); counter=0;}
 			}
 		}
 	}
@@ -97,13 +100,12 @@ public class Run {
 	 * 				-	Sets DecisionMatrix d to new DecisionMatrix			
 	 */
 	
-	public void initializeTree() throws FileNotFoundException {
-		System.out.println("Made to initializetree");
+	public void initializeTree() throws IOException {
 		Tree bot = new Tree(getSelection());
 		setFile("0-0.txt");
 		fileStack.push(getFile());
 		setQuestions(bot.getNextQuestion());
-		setDecisionMatrix(new DecisionMatrix());
+		setDecisionMatrix(new DecisionMatrix(this));
 	}
 	
 	/*
@@ -118,36 +120,45 @@ public class Run {
 	 *  			-	Decide the next file via DecisionMatrix d			
 	 */
 	
-	public void runLoop() throws IOException {
-		System.out.println("Made it to runLoop");
+	public void runLoop() throws IOException, InterruptedException {
 		input = false;
-		int loopcounter = 0;
 		while (true) {
 			if(getFile().equals("loop-0.txt")){
-				break;
+				initialize(); //restarts the process
+				
 			}else if(getFile().equals("end-0.txt")){
-				getQuestions().get(getFile()).printQuestion();
-				convo.push("Chatbot: "+getQuestions().get(getFile()).getQuestion());
-				sh.conToFile();
-				sh.pathToFile();
-				System.exit(0);
+				gui.setBotOutput(getQuestions().get(getFile()).getQuestion()); //set bot to print question
+				convo.push("Chatbot: "+getQuestions().get(getFile()).getQuestion()); //adds bot output to log
+				sh.conToFile(); //sends chat log to file
+				sh.pathToFile();//sends file log to file
+				gui.exit(); //runs exit process
 			}
-			//getQuestions().get(getFile()).printQuestion();
-			gui.setBotOutput(getQuestions().get(getFile()));
-			convo.push("Chatbot: "+getQuestions().get(getFile()).getQuestion());
-			input = gui.getInputBool();
-			loopcounter++;
-			if(loopcounter%11==0)
-			System.out.println("false");
-				if(input) {
-				System.out.println("true");
-				setUser(ui.getInput2());
-				convo.push("User: "+getUser());
-				file = d.Decision(getUser(), getFile(), getSelection());
-				fileStack.push(getFile());
-				}
+			input = gui.getInputBool();//boolean storing whether user has inputted
+			if(input) {//makes sure user input is not null
+				Bot(); //prints bot response, write to log
+				Thread.sleep(4500); //give user 4.5 seconds to answer
+				User(); //get user input, write to log
+				File(); //get next file (question) from decision matrix, add to filelog
+				gui.setUserText(""); //set user to blank so that previous answere isn't reused
+			}
 		}
 	}
+	
+	void Bot() {
+		gui.setBotOutput(getQuestions().get(getFile())); //print question
+		convo.push("Chatbot: "+getQuestions().get(getFile()).getQuestion()); //add bot output to convo log
+	}
+	private void User() {
+		setUser(ui.getInput2(gui)); //read user input
+		convo.push("User: "+getUser());//add to convo log
+	}
+	
+	private void File() throws FileNotFoundException, IOException {
+		setFile(d.Decision(gui, getUser(), getFile(), getSelection())); //decide next question
+		fileStack.push(getFile()); //add to file log
+	}
+	
+	
 	//setters (only used locally)
 	private void setSelection(int selection) {this.selection=selection;}
 	private void setUser(String user) {this.user= user;}

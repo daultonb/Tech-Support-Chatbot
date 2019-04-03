@@ -127,12 +127,8 @@ public class Question {
 	 * 				-	Prints certain info regarding specific Question object
 	 */
 	public String printQuestion() {
-		//System.out.println(this.branchID.toString());
-		//System.out.println(this.questionPriority);
-		System.out.println(this.question);
+		//System.out.println(this.question);
 		return this.question;
-		//System.out.println(this.inputRange);
-		//System.out.println(this.answers.toString());
 	}
 	
 }

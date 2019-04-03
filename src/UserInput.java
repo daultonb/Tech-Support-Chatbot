@@ -22,12 +22,16 @@ public class UserInput {
 	 * 				-	returns "user" to be used in Decision Matrix
 	 */
 	public String getInput() {
-		input = new Scanner(System.in);
-		user = input.nextLine();
+//		input = new Scanner(System.in);
+//		user = input.nextLine();
 		return user.toLowerCase();
 	}	
-	public String getInput2() {
-		return user.toLowerCase();
+	public String getInput2(GUI gui) {
+		input = new Scanner(gui.getUserText());
+		if(input.hasNext())
+			return input.nextLine().toLowerCase();
+		else
+			return "";
 	}	
 	public void setInput(String user) {
 		this.user = user;
