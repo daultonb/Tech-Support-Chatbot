@@ -1,9 +1,5 @@
 
 bin/.project
 .project
-/GUI/
 /Spellcheck/
-/UnitTesting/
-/src/
-/Simile/
 /dictionary_files/
