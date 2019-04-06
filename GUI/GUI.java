@@ -2,6 +2,8 @@ package GUI;
 import java.awt.*;
 import javax.swing.*;
 import javax.swing.text.BadLocationException;
+import javax.swing.text.DefaultCaret;
+import javax.swing.text.JTextComponent;
 
 import src.Question;
 import src.Run;
@@ -52,7 +54,7 @@ public class GUI implements ActionListener {
 			UserTextField.setText(""); //clears text field
 		}
 		else {
-			setBotOutput("I didn't get that, try again.");
+			setBotOutput(getErrorMessage());
 		}
 	}
 	
@@ -89,8 +91,10 @@ public class GUI implements ActionListener {
 	private void setPanel() {
 		MainDialogueArea = new JTextArea();
 		MainDialogueArea.setEditable(false);
+		DefaultCaret caret = (DefaultCaret)MainDialogueArea.getCaret();
+		caret.setUpdatePolicy(DefaultCaret.ALWAYS_UPDATE);
 		scroll = new JScrollPane(MainDialogueArea);
-		scroll.setPreferredSize(new Dimension(550,500));
+		scroll.setPreferredSize(new Dimension(550,500)); 
 	}
 	private void setUserText() {
 		UserTextField = new JTextField();
@@ -101,6 +105,18 @@ public class GUI implements ActionListener {
 		button = new JButton("Send");
 		button.setPreferredSize(new Dimension(100,40));
 		button.addActionListener(this);
+	}
+	
+	public String getErrorMessage() {
+		int i = (int) (Math.random()*5);
+		switch(i) {
+		case 0: return "Did not understand that, please try again.";
+		case 1: return "Input invalid, please try again.";
+		case 2: return "I couldn't seem to understand that, could you try again?";
+		case 3: return "I didn't get that, try again please.";
+		case 4: return "Error 404: Valid Input not found.";
+		}
+		return "";
 	}
 	
 	public static void main(String[] args) throws IOException, InterruptedException {
@@ -115,5 +131,8 @@ public class GUI implements ActionListener {
 		MainDialogueArea.append("\nSystem Exiting");
 		Thread.sleep(3000);
 		System.exit(0);
+	}
+	public JTextComponent getTextField() {
+		return UserTextField;
 	}
 }

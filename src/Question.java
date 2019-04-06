@@ -126,9 +126,9 @@ public class Question {
 	 * Description: -	Currently used for testing purposes
 	 * 				-	Prints certain info regarding specific Question object
 	 */
-	public String printQuestion() {
-		//System.out.println(this.question);
-		return this.question;
+	public void printQuestion() {
+		System.out.println(this.question);
+		//return this.question;
 	}
 	
 }

@@ -3,6 +3,7 @@ package src;
 import java.util.Scanner;
 
 import GUI.GUI;
+import Spellcheck.SpellCheck;
 /*
  * Class: UserInput
  * Description: -	Initializes a Scanner to read user's input via the Console.
@@ -12,6 +13,7 @@ public class UserInput {
 	Scanner input;
 	String user;
 	GUI gui;
+	SpellCheck sp;
 	/*
 	 * Method: getInput (String)
 	 * Inputs: 		-	None
@@ -27,9 +29,24 @@ public class UserInput {
 		return user.toLowerCase();
 	}	
 	public String getInput2(GUI gui) {
+		sp = new SpellCheck(gui);
 		input = new Scanner(gui.getUserText());
-		if(input.hasNext())
-			return input.nextLine().toLowerCase();
+		if(input.hasNext()) {
+			String text = input.nextLine();
+			String user = "";
+			String[] words = text.split(" ");
+			int idx = 0;
+			for(String str: words) {
+				String corrected = sp.checkSpelling(str);
+				if(!(corrected.equals(str))){
+					words[idx]=corrected;
+				}
+				user += words[idx]+" ";
+				idx++;
+			}
+			System.out.println(user);
+			return user.toLowerCase();
+		}
 		else
 			return "";
 	}	

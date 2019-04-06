@@ -72,7 +72,7 @@ public class Run {
 		
 		while(true) {
 			if(counter>0) {
-				gui.setBotOutput("Did not understand that, please try again.");
+				gui.setBotOutput(gui.getErrorMessage());
 			}
 			gui.setBotOutput(initial.get(0));
 			counter++;
@@ -85,7 +85,7 @@ public class Run {
 			convo.push("User: "+getUser());
 			if(getUser().contains("internet")) {setSelection(1); initializeTree();break; }
 			else if(getUser().contains("phone")) {setSelection(2); initializeTree(); break; }
-			else {gui.setBotOutput("Did not understand that, please try again."); counter=0;}
+			else {gui.setBotOutput(gui.getErrorMessage()); counter=0;}
 			}
 		}
 	}
@@ -118,6 +118,17 @@ public class Run {
 	 * 				-	Otherwise Print current question
 	 * 				-	Set String user to the user's input
 	 *  			-	Decide the next file via DecisionMatrix d			
+	 */
+	
+	/*This is my main loop
+	 * loop-0.txt- is set as the file when the user has more problems (resets the loop)
+	 * end-0.txt- is the final file to read when ending the program. It prints "Thank you for using the Bot."
+	 * getInputBool()- returns whether the user has entered some text to the bot through the GUI
+	 * Bot()- prints the question for the file, and logs in to my conversation log file
+	 * I sleep the thread to give the user 4.5 seconds to enter a response (prevents question spamming)
+	 * User()- reads user input by scanning the JTextField
+	 * File()- Runs my Decision Matrix and decides next file to go to based on User's input.
+	 * I then set UserText() to a blank string so the previous answer is not reused in the next iteration of the while loop.
 	 */
 	
 	public void runLoop() throws IOException, InterruptedException {
