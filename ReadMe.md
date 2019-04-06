@@ -27,10 +27,10 @@ Programming:
  The Level 0 DFD above shows the main input and output of the chatbot. The chatbot reads a Question from a text file, recieves user input (a response) and selects the next question based on that response.
  
  
- ![Image](ReadMeImages/Level-1DFD.png)
+ ![Image](ReadMeImages/Level1-DFD.png)
  The Level 1 DFD above shows the actual processes that the user input goes through when it is running. The diagram shows the data path starting from the Question in the text file, to the Questions class which builds a Hashmap of Questions to be used in the Tree class. Once the Tree is built, the Run class recieves it and the Question is printed. The response is received from the user through the GUI class and read via a Scanner in the User Input class. The Run class sends the User Input to the Decision Matrix class which decides which question is outputted next. The Stack Helper class logs both the conversation between the bot and the user and the files from which the questions are read so that the path the user took may be viewed later.
  
- ![Image](ReadMeImages/GitHubGraph.png)
+ ![Image](ReadMeImages/GitHub Graph.png)
   This is my GitHub Graph
   
  ![Image](ReadMeImages/SampleOutput.png)
