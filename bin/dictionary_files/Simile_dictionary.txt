@@ -1,0 +1,5 @@
+cell- cellphone,cell phone,cellular phone,iphone,samsung,android
+computer- desktop,laptop,mac,macbook,pc
+no- na,nada,nah,negative,not,nope,no way
+yes- affirmative,sure,ya,yah,ye,yea,yeah,yep,yup
+wifi- wireless

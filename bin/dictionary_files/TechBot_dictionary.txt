@@ -1,0 +1,15 @@
+both
+cell
+ethernet
+feet
+hours
+internet
+months
+no
+phone
+thank you
+wifi
+wireless
+yes
+years
+
