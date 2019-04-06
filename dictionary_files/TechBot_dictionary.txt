@@ -1,7 +1,5 @@
 both
 cell
-cellular
-cell phone
 ethernet
 feet
 hours

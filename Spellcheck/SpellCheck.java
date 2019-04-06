@@ -12,7 +12,7 @@ import GUI.GUI;
 
 public class SpellCheck {
 	
-	File dictFile = new File("dictionary_en_2013_03//TechBot_dictionary.txt");
+	File dictFile = new File("dictionary_files//TechBot_dictionary.txt");
 	ArrayList<String> dict = new ArrayList<>();
 	GUI gui;
 	

@@ -1,8 +1,9 @@
 
 bin/.project
 .project
-/src/
 /GUI/
 /Spellcheck/
-/StackLog/
-/dictionary_en_2013_03/
+/UnitTesting/
+/src/
+/Simile/
+/dictionary_files/
