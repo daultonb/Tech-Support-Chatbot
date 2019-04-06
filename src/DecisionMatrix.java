@@ -12,7 +12,7 @@ import GUI.GUI;
 import java.io.File;
 import java.io.FileNotFoundException;
 public class DecisionMatrix {
-  String tryAgain = "Did not understand that, please try again.";
+ // String tryAgain = "Did not understand that, please try again.";
   //inputs are userInput, filename
   //note number of answer = 4th line in txt file
   
@@ -38,7 +38,7 @@ public class DecisionMatrix {
       else if(userInput.contains("no")){
         return "end-0.txt";
       }else {
-        gui.setBotOutput(tryAgain);
+        gui.setBotOutput(gui.getErrorMessage());
         return "anythingElse-0.txt";
       }
   }
@@ -56,7 +56,7 @@ public class DecisionMatrix {
       }
     }
     if((files_part2[0]+"-"+files_part2[1]+".txt").equals(file)){
-      gui.setBotOutput(tryAgain);
+      gui.setBotOutput(gui.getErrorMessage());
       return letsSplit(file);
     }
     return files_part2;
@@ -119,7 +119,7 @@ public class DecisionMatrix {
     		files_part2[1]=j +"";
     	}
     	else {
-    		gui.setBotOutput(tryAgain);
+    		gui.setBotOutput(gui.getErrorMessage());
     	}
     }
     //decision = path, priority and file type
