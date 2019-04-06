@@ -48,6 +48,10 @@ public class Tree{
 		  		root = new Node<String>("Phone");
 		  		root.children = getNextQuestion();
 		  	}
+		  	else if(treeNumber==3) {
+		  		root = new Node<String>("TV");
+		  		root.children = getNextQuestion();
+		  	}
 		}
 
 		/*

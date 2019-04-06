@@ -1,0 +1,6 @@
+0101
+1
+Make sure your HDMI cable is plugged into the box and the TV. Did that fix your problem?
+2
+1) yes
+2) no

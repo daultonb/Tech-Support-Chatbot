@@ -1,0 +1,6 @@
+01
+0
+Please unplug the box for 30 seconds, then plug it back in. Do the lights on the box turn on?
+2
+1) yes
+2) no
