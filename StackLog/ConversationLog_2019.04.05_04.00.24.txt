@@ -1,0 +1,55 @@
+Chatbot: Thank you for using our Chatbot.
+User: no
+Chatbot: Is there anything else I can help you with?
+User: yes
+Chatbot: Please plug in your ethernet cable. Did that fix the issue?
+User: 
+Chatbot: Please plug in your ethernet cable. Did that fix the issue?
+User: no
+Chatbot: Is your ethernet cable plugged in?
+User: 
+Chatbot: Is your ethernet cable plugged in?
+User: 
+Chatbot: Is your ethernet cable plugged in?
+User: 6 years
+Chatbot: How old is your ethernet cable?
+User: 
+Chatbot: How old is your ethernet cable?
+User: 6 hours
+Chatbot: How many hours has this been a problem?
+User: 
+Chatbot: How many hours has this been a problem?
+User: 
+Chatbot: How many hours has this been a problem?
+User: ethernet
+Chatbot: Are you connected to Wifi or Ethernet?
+User: internet
+Chatbot: Is your issue in regards to internet, or phone?
+User: yes
+Chatbot: You should bring your computer into a physical store. Is there anything else I can help you with?
+User: no
+Chatbot: Try a hard reset on your computer. Did that work?
+User: no
+Chatbot: Try restarting your computer. Did that work?
+User: 
+Chatbot: Try restarting your computer. Did that work?
+User: computer
+Chatbot: Are you having issues with your phone, computer, or both?
+User: 
+Chatbot: Are you having issues with your phone, computer, or both?
+User: 
+Chatbot: Are you having issues with your phone, computer, or both?
+User: 
+Chatbot: Are you having issues with your phone, computer, or both?
+User: no
+Chatbot: Please try moving closer to your router. Did that solve your problem?
+User: 
+Chatbot: Please try moving closer to your router. Did that solve your problem?
+User: 6 feet
+Chatbot: How many feet away are you from the router?
+User: yes
+Chatbot: Is your router plugged in?
+User: wifi
+Chatbot: Are you connected to Wifi or Ethernet?
+User: internet
+Chatbot: Is your issue in regards to internet, or phone?

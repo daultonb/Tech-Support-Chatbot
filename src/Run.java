@@ -85,6 +85,7 @@ public class Run {
 			convo.push("User: "+getUser());
 			if(getUser().contains("internet")) {setSelection(1); initializeTree();break; }
 			else if(getUser().contains("phone")) {setSelection(2); initializeTree(); break; }
+			else if(getUser().contains("tv")) {setSelection(3); initializeTree(); break; }
 			else {gui.setBotOutput("Did not understand that, please try again."); counter=0;}
 			}
 		}

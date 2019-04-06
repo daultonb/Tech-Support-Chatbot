@@ -73,6 +73,9 @@ public class DecisionMatrix {
     else if(selection==2){
       f = new File("Phone");
     }
+    else if(selection==3) {
+    	f = new File("TV");
+    }
     for(File check: f.listFiles()){
       if(check.getName().equals(file)){
         f= check;

@@ -1,0 +1,6 @@
+00
+2
+Have you purchased a package to view this channel?
+2
+1) yes
+2) no
