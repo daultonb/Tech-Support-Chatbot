@@ -45,4 +45,3 @@ Programming:
 - SpellChecker class: The SpellChecker class could be used as an API if the user wanted a spell checker that checks individual words one at a time.
 -	DecisionMatrix class: The DecisionMatrix class could be used as an API if the user needs a class that selects which file to use next based on some decision or user input.
 
-Sorry this was a bit late, I had problems merging my branches and getting the images to upload correctly
